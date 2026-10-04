@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f2f5; /* خلفية رمادية هادئة ومريحة للعين */
+    background-color: #f6f7f8; 
 }
 
 /* Form */
@@ -54,15 +54,15 @@ body {
 }
 
 #loginForm input:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+    border-color: #121212;
+    box-shadow: 0 0 0 3px rgba(6, 6, 6, 0.15);
 }
 
 /* login button*/
 #loginForm button {
     margin-top: 15px;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #090a0a;
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
@@ -72,12 +72,9 @@ body {
     transition: background-color 0.2s ease;
 }
 
-#loginForm button:hover {
-    background-color: #0056b3;
-}
 
 #message {
     text-align: center;
     font-size: 13px;
-    min-height: 18px; /* حتى لا يقفز الفورم عند ظهور رسالة */
+    min-height: 18px; 
 }
